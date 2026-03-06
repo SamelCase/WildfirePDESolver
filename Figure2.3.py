@@ -64,7 +64,7 @@ def fig23():
     axs[1].grid()
 
     plt.tight_layout()
-    plt.savefig("figure2.3.png")
+    plt.savefig("images/figure2.3.png")
     print(f"Mean Linear time: {np.mean(tLin):.4f} seconds")
     print(f"Mean Nonlinear time: {np.mean(tNLin):.4f} seconds")
 
